@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  voidinvestor:
+    container_name: voidinvestor
+    image: registry.gitlab.yvonnetake.nl/yvonne/spacetraders
+    volumes:
+      - ./config/:/usr/local/bin/config/
+
+    
+

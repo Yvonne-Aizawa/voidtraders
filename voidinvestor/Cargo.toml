@@ -1,0 +1,18 @@
+[package]
+name = "voidinvestor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+spacedust = "1.0.5"
+void_config ={ path = "../void_config"}
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+dateparser = "0.2.0"
+chrono = "0.4.24"
+json = "0.12.4"
+serde_json = "1.0.96"
+tui = "0.19"
+crossterm = "0.26.1"
+lazy_static = "1.2.0"
